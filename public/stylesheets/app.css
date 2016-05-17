@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+#landing {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 300px) {
+    #landing {
+        background-image: url(https://httpstatusdogs.com/img/206.jpg);
+    }
+}
+
+@media (min-width: 600px) {
+    #landing {
+        background-image: url(https://httpstatusdogs.com/img/420.jpg);
+    }
+}
+
+@media (min-width: 1000px) {
+    #landing {
+        background-image: url(https://httpstatusdogs.com/img/418.jpg);
+    }
+}
